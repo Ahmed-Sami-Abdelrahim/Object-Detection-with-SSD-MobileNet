@@ -1,6 +1,6 @@
 # Object Detection with SSD MobileNet
 
-This project implements real-time object detection using OpenCV's DNN module with a pre-trained SSD MobileNet V3 model. The model can detect multiple object classes (e.g., people, cars, animals) from either images or video streams.
+This project implements real-time object detection using OpenCV's DNN module with a pre-trained SSD MobileNet V3 model. The model can detect multiple object classes (e.g., people, cars, animals).
 
 ## Features
 
