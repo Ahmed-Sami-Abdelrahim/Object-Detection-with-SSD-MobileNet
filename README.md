@@ -17,12 +17,6 @@ This project requires Python 3.x and the following libraries:
 
 - OpenCV 4.x or higher
 
-To install the required dependencies, run:
-
-```bash
-pip install opencv-python opencv-python-headless
-```bash
-
 
 ## Model Details
 
