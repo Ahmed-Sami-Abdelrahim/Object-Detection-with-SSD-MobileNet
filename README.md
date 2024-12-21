@@ -21,6 +21,7 @@ To install the required dependencies, run:
 
 ```bash
 pip install opencv-python opencv-python-headless
+```bash
 
 
 ## Model Details
