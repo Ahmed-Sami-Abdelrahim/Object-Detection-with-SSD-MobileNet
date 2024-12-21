@@ -34,17 +34,18 @@ This project uses the following files:
 
 ## Code Explanation
 
-### Model Initialization
+### <span style="font-weight: bold; color: red;">Model Initialization</span>
 
-- **Pre-trained Weights and Config**: The pre-trained SSD MobileNet V3 model is loaded using `cv2.dnn_DetectionModel` with the weight and configuration files (`frozen_inference_graph.pb` and `ssd_mobilenet_v3_large_coco.pbtxt`).
-- **Class Names**: The class names (from COCO dataset) are loaded from the `coco.names` file.
+- **Pre-trained Weights and Config**: The pre-trained SSD MobileNet V3 model is loaded using `cv2.dnn_DetectionModel` with the weight and configuration files (**`frozen_inference_graph.pb`** and **`ssd_mobilenet_v3_large_coco.pbtxt`**).
+- **Class Names**: The class names (from COCO dataset) are loaded from the **`coco.names`** file.
 
-### Video Processing
+### <span style="font-weight: bold; color: red;">Video Processing</span>
 
 - **Capture Video**: The webcam feed is captured using OpenCV’s `cv2.VideoCapture(0)`.
 - **Object Detection**: For each frame, the `dnn.detect()` method is used to detect objects and get their bounding boxes.
 - **Draw Bounding Boxes**: The detected bounding boxes and class labels are drawn on the frame.
 
-### Termination
+### <span style="font-weight: bold; color: red;">Termination</span>
 
-- Press `q` to stop the video capture and exit the program.
+- Press **`q`** to stop the video capture and exit the program.
+
