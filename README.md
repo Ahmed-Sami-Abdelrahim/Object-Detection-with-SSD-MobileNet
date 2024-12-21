@@ -9,7 +9,6 @@ This project implements real-time object detection using OpenCV's DNN module wit
 - **Class Labels**: Labels each detected object with its corresponding class name (from COCO dataset).
 - **Pre-trained Model**: Uses a pre-trained SSD MobileNet V3 model trained on the COCO dataset.
 - **OpenCV DNN Module**: Efficient and optimized inference with OpenCV's deep learning (DNN) module.
-- **Video and Image Support**: Detect objects from live video streams or static images.
 
 ## Requirements
 
